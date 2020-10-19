@@ -1,6 +1,6 @@
 # MediaQuerie
 
-##Clase 5
+## Clase 5
 INDEX.html
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@ initial-scale=1.0 para indicar el escalado según el dispositivo
 maximun-scale 
 
 ---------------------------------
-##Clase 6
+## Clase 6
 Unidades relativas de medida:
 
 Porcentaje: longitud referente al tamaño de los elementos padre
@@ -19,28 +19,28 @@ rem: unidad relativa al tamaño de fuente especificada en el ancestro más lejan
 vw / vh: unidad relativa porcentual con respecto al viewport
 
 ---------------------------------
-##Clase 7 Medias Queries
+## Clase 7 Medias Queries
 max-width = hasta
 min-width = desde
 
-###Mobile First usa min-width y Desktop First usa max-width
+### Mobile First usa min-width y Desktop First usa max-width
 @media media type and (condición) { }
 @media screen and (max-width: 768px) and (min-width: 480px) {}
 
-###Mobile Firts
+### Mobile Firts
 @media screen and (min-width: 320px) { }
 @media screen and (min-width: 480px) { }
 @media screen and (min-width: 768px) { }
 @media screen and (min-width: 1024px) { }
 
-Desktop Firts
+### Desktop Firts
 @media screen and (max-width: 1024px) { }
 @media screen and (max-width: 768px) { }
 @media screen and (max-width: 480px) { }
 @media screen and (max-width: 320px) { }
 
 -----------------------------------
-##Clase 8 Formas de incluir medias queries 
+## Clase 8 Formas de incluir medias queries 
 
 Breakpoints estandarizados que debemos de tener en cuenta:
 
