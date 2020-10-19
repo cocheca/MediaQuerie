@@ -1,5 +1,32 @@
 # MediaQuerie
 
+## Clase 2
+
+### Patrones en Reponsive Design:
+
+Mostly Fluid
+Colocación de columnas
+Layout shifter
+Tiny tweaks
+Off canvas
+Para mas información: https://mediaqueri.es
+
+### Conceptos nuevos:
+
+Viewport: área visible del navegador
+Portrait: vertical
+Landscape: horizontal
+Mobile first: empezar un websit desde la menor resolución soportada
+Deskto first: empezar un websit desde la mayor resolución soportada
+¿Cúal es mejor?: Técnicamente Mobile First
+
+## Clase 4 Developer tools para Responsive Design
+
+Usando la herramienta de inspeccion, seleccion responsivo o bien tipo de pantalla... Luego con el menu lateral se puede ver las medias queries y/o la regla.
+ - AZUL se muestras las medias queries con max-width (hasta)
+ - NARANJA se muestras las medias queries con min-width (desde)
+
+
 ## Clase 5
 INDEX.html
 
@@ -85,4 +112,16 @@ mini-phone{
 }
 ```
 
+## Clase 9
 REPOSITORIO >>> https://github.com/LeonidasEsteban/responsive-design-portafolio
+
+## Clase 10
+Diseño elástico con max-width y flex-wrap
+
+```
+flex-wrap: wrap;
+```
+
+Para ver >>> https://flexboxfroggy.com/#es 
+
+
