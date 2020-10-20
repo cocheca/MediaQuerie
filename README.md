@@ -130,4 +130,51 @@ Para ver >>> https://flexboxfroggy.com/#es
 https://codepen.io/LeonidasEsteban/pen/VGWzWK
 
 https://github.com/MineiToshio/CursosPlatzi/tree/master/Curso%20de%20Responsive%20Design
+
 https://github.com/MineiToshio/CursosPlatzi
+
+## Clase 18 Video Insertado
+
+Para calcular la proporción de nuestro vídeo:
+height * 100 / width
+
+```
+.flexible-video {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+```
+
+```
+.html-video {
+    width: 100%;
+    height: auto;
+}
+```
+
+## Clase 19 Fuentes de Iconos 
+https://icomoon.io/
+
+## Clase 20 Menu Hamburg
+
+```
+.burger-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.5);
+  display: none;
+  line-height: 40px;
+  text-align: center; 
+  position: fixed;
+  z-index: 13;
+  top: 5px;
+  left: 5px; 
+  color: white;
+}
+```
+
+
+
