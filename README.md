@@ -176,5 +176,106 @@ https://icomoon.io/
 }
 ```
 
+## Clase 21 Posicionando el menú
+```
+.menu {
+	position: fixed;
+	background-color: rgba(5, 111, 255, .9);
+	z-index: 3;
+	top: 0;
+	left:-100vw; /* Para que el menu se oculte a la izquierda y se cree el efecto al hacer click*/
+	width: 100vw;
+	bottom: 0;/* height: 100vw; */ /*A partir de aqui para centrar*/
+	display: flex;
+	align-items: center;
+	justify-content: center; /* centrar hasta aqui */
+	transition: .3s; /* Para crear efecto de transición */
+}
+.menu.is-active {
+	left: 0;
+}
+```
+
+## Clase 22 Posicionando el menú
+```
+ <script>
+console.log('Hola mundo');
+
+const menu= document.querySelector('.menu')
+console.log(menu);
+const burgerButton=document.querySelector('#burger-menu');
+console.log(burgerButton);
+
+burgerButton.addEventListener('click', hideshow);
+
+function hideshow(){
+	if(menu.classList.contains('is-active')){
+	menu.classList.remove('is-active');
+}
+else{
+	menu.classList.add('is-active');
+}
+}
+</script>
+```
+
+## Clase 23 Media queries con JavaScript
+
+```
+const ipad = window.matchMedia('screen and (max-width: 767px)');
+const menu = document.querySelector('.menu');
+const burgerButton = document.querySelector('#burger-menu');
+
+ipad.addListener(validation);
+function validation(event) {
+	if (event.matches) {
+        	console.log('true');
+                burgerButton.addEventListener('click', hideShow);
+        } else {
+        	console.log('false');
+                burgerButton.removeEventListener('click', hideShow);
+        }
+}
+
+function hideShow() {
+	menu.classList.contains('is-active') ? menu.classList.remove('is-active') : menu.classList.add('is-active');
+}
+```
+
+```
+if(ipad.matches && window.screen.width < 768) {
+  console.log(ipad.matches);
+        
+  menuButton.addEventListener('click', (e) => {
+    menuBurger.classList.toggle('is-active')
+  })
+}
+```
+
+## Clase 24 Creando un servidor de archivos estáticos con Node
+
+https://www.npmjs.com/package/static-server
+
+https://nodejs.org/es/
+
+https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb
+
+https://www.makeuseof.com/tag/mirror-android-screen-pc-mac-without-root/
+
+## Clase 26 Remote debbuging iOS
+
+```
+validation(ipad)
+```
+
+## Clase 27 Remote debbuging Android
+
+https://chrome:inspect/#devices
+
+https://developers.google.com/web/tools/chrome-devtools/remote-debugging?hl=es
+
+
+
+
 
 
