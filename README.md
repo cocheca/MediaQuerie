@@ -1,4 +1,4 @@
-# MediaQuerie
+# Responsive Design ::: https://platzi.com/clases/responsive-design/ 
 
 ## Clase 2
 
@@ -126,3 +126,8 @@ Para ver >>> https://flexboxfroggy.com/#es
 
 ## Clase 13 Ajustando la sección de eventos
 
+## Clase 15 CSS Positions
+https://codepen.io/LeonidasEsteban/pen/VGWzWK
+
+https://github.com/MineiToshio/CursosPlatzi/tree/master/Curso%20de%20Responsive%20Design
+https://github.com/MineiToshio/CursosPlatzi
