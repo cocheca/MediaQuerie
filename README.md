@@ -124,4 +124,5 @@ flex-wrap: wrap;
 
 Para ver >>> https://flexboxfroggy.com/#es 
 
+## Clase 13 Ajustando la sección de eventos
 
